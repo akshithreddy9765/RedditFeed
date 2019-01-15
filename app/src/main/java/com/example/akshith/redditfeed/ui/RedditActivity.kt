@@ -33,7 +33,7 @@ class RedditActivity : AppCompatActivity(), RedditContract.RedditView, RedditRow
 
     override fun initViews() {
         reddit_feed_list.let {
-            it.layoutManager = LinearLayoutManager(this)
+            it.layoutManager = LinearLayoutManager(this,LinearLayout.VERTICAL,false)
             it.addItemDecoration(DividerItemDecoration(this, LinearLayout.VERTICAL))
             it.adapter = redditAdapter
         }

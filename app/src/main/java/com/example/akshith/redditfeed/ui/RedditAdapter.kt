@@ -30,7 +30,7 @@ class RedditAdapter(private val redditRowItemClickListener: RedditRowItemClickLi
     inner class RedditItemViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
         fun bindRedditData(data: RedditViewModel) {
             view.reddit_title.text = data.title
-            view.reddit_cooments.text = data.numberOfComments
+            view.reddit_comments.text = data.numberOfComments
             view.reddit_author.text = data.authorName
             view.setOnClickListener { redditRowItemClickListener.onClick(data.selfText) }
         }

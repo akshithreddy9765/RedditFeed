@@ -63,6 +63,14 @@ class RedditPresenterTest {
     }
 
     @Test
+    fun test_when_calling_onRedditRowItemClicked_then_it_should_invoke_view_showSelfText() {
+        val selfText = "selftext"
+        subject.onAttachView(redditView)
+        subject.onRedditRowItemClicked(selfText)
+        Verify on redditView that redditView.showSelfText(selfText) was called
+    }
+
+    @Test
     fun test_when_calling_onDestroyView_it_should_destory_view() {
         subject.onAttachView(redditView)
         subject.onDestroyView()

@@ -7,7 +7,6 @@ import javax.inject.Inject
 
 class RedditPresenter @Inject constructor(private val redditInteractor: RedditInteractor, private val redditViewModelMapper: RedditViewModelMapper, private val rxSchedulers: RxSchedulers) : RedditContract.IRedditPresenter {
 
-
     var redditView: RedditContract.RedditView? = null
     private val disposable: CompositeDisposable = CompositeDisposable()
 
@@ -28,6 +27,10 @@ class RedditPresenter @Inject constructor(private val redditInteractor: RedditIn
                         { redditView?.handleRedditError() }
                 )
         )
+    }
+
+    override fun onRedditRowItemClicked(selfText: String) {
+        redditView?.showSelfText(selfText)
     }
 
     override fun onDestroyView() {

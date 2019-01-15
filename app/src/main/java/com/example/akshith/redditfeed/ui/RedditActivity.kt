@@ -56,6 +56,10 @@ class RedditActivity : AppCompatActivity(), RedditContract.RedditView, RedditRow
     }
 
     override fun onClick(selfText: String) {
+        redditPresenter.onRedditRowItemClicked(selfText)
+    }
+
+    override fun showSelfText(selfText: String) {
         AlertDialog.Builder(this)
                 .create().let {
                     it.setMessage(selfText)

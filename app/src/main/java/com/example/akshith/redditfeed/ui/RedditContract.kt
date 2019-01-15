@@ -6,6 +6,7 @@ interface RedditContract {
         fun onAttachView(redditView: RedditView)
         fun fetchRedditData()
         fun onDestroyView()
+        fun onRedditRowItemClicked(selfText: String)
     }
 
     interface RedditView {
@@ -14,5 +15,6 @@ interface RedditContract {
         fun showProgress()
         fun hideProgress()
         fun handleRedditError()
+        fun showSelfText(selfText: String)
     }
 }

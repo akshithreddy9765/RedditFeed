@@ -3,7 +3,7 @@
 2. Separate presentation, domain, and data modules to enforce independent layers
 3. Dagger 2 for dependency injection
 4. RxJava 2 for asynchronous data operations
-5. Retrofit for web service integration
+5. Retrofit with OkHttp Client for web service integration
 6. Junit, Kluent(Kotlin Extension) and Mockito for unit tests
 
 

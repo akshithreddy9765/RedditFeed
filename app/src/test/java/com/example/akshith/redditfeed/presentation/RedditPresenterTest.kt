@@ -1,10 +1,7 @@
-package com.example.akshith.redditfeed.ui
+package com.example.akshith.redditfeed.presentation
 
 import com.example.akshith.redditfeed.RxSchedulers
 import com.example.akshith.redditfeed.domain.usecases.RedditInteractor
-import com.example.akshith.redditfeed.presentation.RedditContract
-import com.example.akshith.redditfeed.presentation.RedditPresenter
-import com.example.akshith.redditfeed.presentation.RedditViewModelMapper
 import io.reactivex.Observable
 import io.reactivex.schedulers.Schedulers
 import org.amshove.kluent.*

@@ -1,3 +1,12 @@
+### The architectural techniques used:
+1. Uncle Bob's Clean Artchitecture with SOLID principles
+2. Separate presentation, domain, and data modules to enforce independent layers
+3. Dagger 2 for dependency injection
+4. RxJava 2 for asynchronous data operations
+5. Retrofit for web service integration
+6. Junit, Kluent(Kotlin Extension) and Mockito for unit tests
+
+
 Reddit Feed architecture was heavily influenced by Uncle Bob's Clean Architecture.
 The core principles of the clean approach can be summarized as followed:
 * **The application code is separated into layers:** These layers define the separation of concerns inside the code base.

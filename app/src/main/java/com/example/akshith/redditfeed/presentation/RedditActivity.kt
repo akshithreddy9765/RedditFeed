@@ -1,4 +1,4 @@
-package com.example.akshith.redditfeed.ui
+package com.example.akshith.redditfeed.presentation
 
 import android.os.Bundle
 import android.support.v7.app.AlertDialog

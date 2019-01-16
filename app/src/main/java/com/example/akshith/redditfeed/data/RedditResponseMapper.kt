@@ -1,6 +1,6 @@
 package com.example.akshith.redditfeed.data
 
-import com.example.akshith.redditfeed.domain.RedditEntity
+import com.example.akshith.redditfeed.domain.entities.RedditEntity
 import javax.inject.Inject
 
 class RedditResponseMapper @Inject constructor() {

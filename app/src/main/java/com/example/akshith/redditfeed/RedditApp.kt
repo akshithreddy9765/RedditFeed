@@ -3,7 +3,7 @@ package com.example.akshith.redditfeed
 import android.app.Application
 import com.example.akshith.redditfeed.data.DataModule
 import com.example.akshith.redditfeed.domain.DomainModule
-import com.example.akshith.redditfeed.ui.AppModule
+import com.example.akshith.redditfeed.presentation.AppModule
 
 class RedditApp : Application() {
     companion object {

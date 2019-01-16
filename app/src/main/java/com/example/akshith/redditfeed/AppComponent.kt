@@ -2,8 +2,8 @@ package com.example.akshith.redditfeed
 
 import com.example.akshith.redditfeed.data.DataModule
 import com.example.akshith.redditfeed.domain.DomainModule
-import com.example.akshith.redditfeed.ui.AppModule
-import com.example.akshith.redditfeed.ui.RedditActivity
+import com.example.akshith.redditfeed.presentation.AppModule
+import com.example.akshith.redditfeed.presentation.RedditActivity
 import dagger.Component
 import javax.inject.Singleton
 

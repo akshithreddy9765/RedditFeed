@@ -1,5 +1,8 @@
-package com.example.akshith.redditfeed.domain
+package com.example.akshith.redditfeed.domain.usecases
 
+import com.example.akshith.redditfeed.domain.IRedditInteractor
+import com.example.akshith.redditfeed.domain.IRedditRepository
+import com.example.akshith.redditfeed.domain.entities.RedditEntity
 import io.reactivex.Observable
 import javax.inject.Inject
 

@@ -1,4 +1,4 @@
-package com.example.akshith.redditfeed.ui
+package com.example.akshith.redditfeed.presentation
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater

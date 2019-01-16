@@ -1,7 +1,7 @@
-package com.example.akshith.redditfeed.ui
+package com.example.akshith.redditfeed.presentation
 
 import com.example.akshith.redditfeed.RxSchedulers
-import com.example.akshith.redditfeed.domain.RedditInteractor
+import com.example.akshith.redditfeed.domain.usecases.RedditInteractor
 import io.reactivex.disposables.CompositeDisposable
 import javax.inject.Inject
 

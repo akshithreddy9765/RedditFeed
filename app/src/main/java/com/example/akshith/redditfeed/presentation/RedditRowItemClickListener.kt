@@ -1,4 +1,4 @@
-package com.example.akshith.redditfeed.ui
+package com.example.akshith.redditfeed.presentation
 
 interface RedditRowItemClickListener {
     fun onClick(selfText: String)

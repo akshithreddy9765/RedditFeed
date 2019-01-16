@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.RedditActivity">
+    tools:context=".presentation.RedditActivity">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/reddit_feed_list"

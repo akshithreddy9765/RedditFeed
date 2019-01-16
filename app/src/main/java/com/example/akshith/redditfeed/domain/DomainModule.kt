@@ -1,5 +1,6 @@
 package com.example.akshith.redditfeed.domain
 
+import com.example.akshith.redditfeed.domain.usecases.RedditInteractor
 import dagger.Binds
 import dagger.Module
 

@@ -1,7 +1,7 @@
 package com.example.akshith.redditfeed.data
 
 import com.example.akshith.redditfeed.domain.IRedditRepository
-import com.example.akshith.redditfeed.domain.RedditEntity
+import com.example.akshith.redditfeed.domain.entities.RedditEntity
 import io.reactivex.Observable
 import javax.inject.Inject
 

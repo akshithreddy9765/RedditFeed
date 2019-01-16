@@ -1,4 +1,4 @@
-package com.example.akshith.redditfeed.ui
+package com.example.akshith.redditfeed.presentation
 
 import com.example.akshith.redditfeed.RxSchedulers
 import dagger.Binds
